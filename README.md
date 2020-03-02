@@ -1,4 +1,4 @@
-# Stream Debugger
+# rtmp-config-tool
 
 **Project Overview**
 This project was created to solve the need to modify the RTMP servers stream keys. The RTMP server required ssh and manual configuration each time a stream key would change. And in January 2020 Facebook required streams move to 'RTMPS'. The rtmp module for Nginx I am using doesn't support rtmps, so I proxied the stream with SSL using stunnel4. The proxy server does timeout if the stream isn't being used so I also added a option to restart stunnel and Nginx if needed.
