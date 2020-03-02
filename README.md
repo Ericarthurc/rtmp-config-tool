@@ -9,4 +9,6 @@ This project was created to solve the need to modify the RTMP servers stream key
 - Using paramiko for ssh and sftp
 
 **How to Use**
-On line 42 the strings: 'SERVER IP', 'USERNAME', and 'PASSWORD' need to be replaced with their respective information. I build this tool into an .exe using pyinstaller and couldn't use environmental variables with the builder. So there is commented out instructions for using environmental variables in a local environment. To keep my information safe on GitHub I just discluded the actual values.
+
+- On line 42 the strings: 'SERVER IP', 'USERNAME', and 'PASSWORD' need to be replaced with their respective information.
+- I build this tool into an .exe using pyinstaller and couldn't use environmental variables with the builder. So there is commented out instructions for using environmental variables in a local environment. To keep my information safe on GitHub I just discluded the actual values.
